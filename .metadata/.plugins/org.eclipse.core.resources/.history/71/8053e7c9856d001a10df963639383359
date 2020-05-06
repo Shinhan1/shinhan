@@ -1,0 +1,32 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>jQueryEx13.jsp</title>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script type="text/javascript">
+	$(function(){
+		$('input[value="이미지 출력"]').click(function(){
+			$("img").slideUp();
+		});
+	});
+</script>
+</head>
+<body>
+	<!-- 
+		1. 버튼 클릭 시 브라우저에 이미지가 출력
+		(100px 정도 오른쪽에서 점점 보이는 형태로 출력)
+		
+		2. 사진이 점점 보이면 main.jsp 페이지로 이동시켜 보세요.
+		
+		3. main.jsp에서는 어서오세요~! 출력		 -->
+		
+		<input type="button" value="이미지 출력" />
+		<div id="div1">
+			<img src="../images/stone.jpg" alt="스톤 아일랜드" />
+		</div>
+
+</body>
+</html>

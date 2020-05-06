@@ -1,0 +1,58 @@
+<%@page import="com.oreilly.servlet.multipart.DefaultFileRenamePolicy"%>
+<%@page import="com.oreilly.servlet.MultipartRequest"%>
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>fileWriteOk.jsp</title>
+</head>
+<body>
+
+	<%
+		// upload directory
+		String saveDir = request.getRealPath("upload");
+	
+		out.println(saveDir + "</br>");
+		
+		// 첨부파일 최대 크기 : 1kb - 1024
+		int maxFileSize = 1024*1024*10;		// (1kb * 1024 = 1Mb) * 10 = 10Mb
+		
+		// cos 사용 - 클래스 호출
+		// new MultipartRequest(요청 객체, 저장디렉토리, 최대파일크기, 인코딩타입, 동명파일처리규정 객체)
+		MultipartRequest mr = 
+			new MultipartRequest(request, saveDir, maxFileSize, "UTF-8", new DefaultFileRenamePolicy());
+		
+		// 요청 객체가 들어있는 Multipart 객체로 브라우저에게 요청해서 확인
+		String title = mr.getParameter("title");
+		String writer = mr.getParameter("writer");
+		String contents = mr.getParameter("contents");
+		String fileName = mr.getParameter("fileName");
+		
+		out.println(title + "</br>");
+		out.println(writer + "</br>");
+		out.println(contents + "</br>");
+		out.println(fileName + "</br>");
+		
+		
+		
+		/* String title = request.getParameter("title");
+		String writer = request.getParameter("writer");
+		String contents = request.getParameter("contents");
+		String fileName = request.getParameter("fileName");
+		
+		out.println(title);
+		out.println(writer);
+		out.println(contents);
+		out.println(fileName); */
+		
+		
+	
+	%>
+	
+	<%-- <img src="<%= fileName %>" alt="" /> --%>
+
+
+</body>
+</html>

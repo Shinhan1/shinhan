@@ -1,0 +1,19 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>jQueryEx13.jsp</title>
+</head>
+<body>
+	<!-- 
+		1. 버튼 클릭 시 브라우저에 이미지가 출력
+		(100px 정도 오른쪽에서 점점 보이는 형태로 출력)
+		
+		2. 사진이 점점 보이면 main.jsp 페이지로 이동시켜 보세요.
+		
+	 -->
+
+</body>
+</html>

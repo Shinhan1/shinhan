@@ -1,0 +1,35 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>jQueryEx10.jsp</title>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script type="text/javascript">
+	$(function(){
+		$('#all').change(function(){
+			//console.dir(this);
+			if(this.checked){
+				$('#check').children().prop('checked', true);			// 자식이 하나면 child, 자식이 여럿이면 children 으로 자식들을 불러올 수 있다.
+			}else {
+				$('#check').children().prop('checked', false);
+			}
+			
+			
+		});
+	});
+</script>
+</head>
+<body>
+	<div id="div1">
+		<input type="checkbox" name="" id="all" /> ALL <br />
+		<div id="check">
+			<input type="checkbox" name="" id="" />RED
+			<input type="checkbox" name="" id="" />YELLOW
+			<input type="checkbox" name="" id="" />GREEN
+		</div>
+	</div>
+
+</body>
+</html>

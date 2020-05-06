@@ -1,0 +1,109 @@
+@charset "UTF-8";
+
+.subMenu{
+		background-color: #F6F6F6;
+		height: 50px;
+		text-align: center;
+	}
+	.subMenu_bar{
+		padding-top: 14px;
+	}
+	
+	.subMenu a{
+		text-decoration: none;
+		color: black;
+		padding-right: 20px;
+		
+	}
+	
+	/* customer : 메인에 나오는 사진 div */
+	.customer {
+		/* background-image: url('https://www.sc.or.kr/webPub/sc_2018/images/news/main-bg.png'); */
+		/* background-color: #F2FFEB; */
+		background-image: url('https://www.sc.or.kr/webPub/sc_2018/images/organigation/main/main_subvisual.png');
+		height: 600px;
+		padding-top: 50px;
+		color: white;
+		margin: 0;
+	}
+	.under_bar {
+		margin-left: 50px;
+	}
+	
+	.under_bar div {
+		width: 25%;
+	}
+	
+	.QA {
+		width: 690px;
+		height: 300px;
+		/* background-image: url('../images/donation.jpeg'); */
+		display : inline-block;
+		box-sizing: border-box;
+	}
+	.img {
+		/* display : inline-block; */
+		float: right;
+		margin-top: 100px;
+		
+	}
+	
+	.main_div {
+		width: 1200px;
+		margin-left: 360px;
+	}
+	
+	.page {
+		display: none;
+	}
+	
+	table {
+		margin-left: 230px;
+		border: 1px solid white;
+	}
+	
+	customer h2, h3, h4 {
+		color: #FFFFD2;
+	}
+	.secDiv {
+		height: 400px;
+	}
+	
+	.main_div.second {
+		padding-top : 50px;
+		box-sizing: border-box;
+	}
+	
+	.smb {
+		border: 1px solid #D5D5D5;
+		height: 170px;
+		width: 220px;
+		display: inline-block;
+		margin-right: 50px;
+		box-sizing: border-box;
+		padding: 20px;
+		box-shadow: 0px 5px 10px 0px rgba(0,0,0,.15);
+	}
+	
+	.smb img {
+		display: block;
+		padding-bottom: 30px;
+	}
+	
+	.sub {
+		margin-left: 250px;
+		margin-top: -180px;
+		padding-left: 20px;
+		box-sizing: border-box;
+	}
+	
+	
+	a {
+		text-decoration: none;
+		color: black;
+	}
+	.smb a img {
+		margin-left: 120px;
+		margin-top: -90px;
+	}
+	

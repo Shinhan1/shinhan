@@ -1,0 +1,45 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>jQueryEx15.jsp</title>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script type="text/javascript">
+	$(function(){
+		$('#btn1').click(function(){
+			// right 버튼을 클릭하면 img가 오른쪽으로 800 이동시켜보세요
+			// $('img').css("marginLeft", "800px");		// margin-left 써도 옮겨짐
+			
+			// 맵 방식 - JSON
+			/* $('img').css({
+				"margin-left" : "800px"
+				
+			}); */
+			
+			// animate(애니메이션 효과, 시간)
+			$("img").animate({"margin-left" : "1000px"}, 1000);
+			
+			
+		});		// btn1 click end
+	});
+</script>
+</head>
+<body>
+
+	<!-- 이미지에 효과 주기 -->
+	<input type="button" value="right" id="btn1" />
+	<input type="button" value="down" id="btn2" />
+	
+	<br />
+	<br />
+	<br />
+	
+	<img src="../images/stone.jpg" alt="" />
+	
+	
+	
+	
+</body>
+</html>

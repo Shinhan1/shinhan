@@ -1,0 +1,21 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>ajaxEx07.jsp</title>
+</head>
+<body>
+	<!-- 로그인창에서 id를 검색했을 때 존재 유무를 알림 -->
+	<input type="text" name="id" id="id" placeholder="중복확인하세요" />
+	<input type="button" value="중복확인" />
+	<span id="msg"></span> <br />
+	<input type="text" name="pwd" id="pwd" /> <br />
+	<input type="button" value="로그인" />
+	<input type="button" value="회원가입" />
+	
+	
+
+</body>
+</html>

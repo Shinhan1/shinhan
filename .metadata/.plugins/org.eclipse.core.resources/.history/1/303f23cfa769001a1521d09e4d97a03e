@@ -1,0 +1,25 @@
+<%@page import="java.io.File"%>
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>dirView.jsp</title>
+</head>
+<body>
+	<!-- 파일서버 관리자 입장에서 확인 -->
+	<%
+		// 파일서버에 생성한 upload 디렉토리의 실제  OS 경로
+		String path = request.getParameter("upload");
+	
+		// 파일 객체
+		File f = new File(path);
+		
+		
+	
+	%>
+
+
+</body>
+</html>

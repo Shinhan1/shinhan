@@ -1,0 +1,20 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>jQueryEx10.jsp</title>
+</head>
+<body>
+	<div id="div1">
+		<input type="checkbox" name="" id="all" /> ALL <br />
+		<div id="check">
+			<input type="checkbox" name="" id="" />RED
+			<input type="checkbox" name="" id="" />YELLOW
+			<input type="checkbox" name="" id="" />GREEN
+		</div>
+	</div>
+
+</body>
+</html>

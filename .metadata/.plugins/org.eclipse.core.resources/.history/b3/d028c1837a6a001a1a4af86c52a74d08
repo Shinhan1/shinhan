@@ -1,0 +1,32 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>ajaxEx04.jsp</title>
+<script type="text/javascript">
+	// 비동기 통신 객체 : XMLHttpRequest 객체
+	// (참고) 이 비동기 통신 객체자 웹 브라우저에 따라서 이름이 다름. 특히 MS
+
+</script>
+</head>
+<body>
+	<!-- Ajax(Asynchronous JavaScript and XML)
+	
+	: 자바스크립트를 이용해서 서버와 XML(데이터)로 부터 데이터를 추출하여
+	    웹페이지 전체 갱신없이 부분적으로 갱신하여 출력할 수 있도록 하는 기술 -->
+
+	<input type="button" value="simple1.txt" onclick="load('simple1.txt')" />
+	<input type="button" value="simple1.jsp" onclick="load('simple1.jsp')" />
+	<input type="button" value="simple2.txt" onclick="load('simple2.txt')" />
+	<input type="button" value="simple2.jsp" onclick="load('simple2.jsp')" />
+	
+	<div id="div1">
+	
+	
+	</div>
+	
+	
+</body>
+</html>

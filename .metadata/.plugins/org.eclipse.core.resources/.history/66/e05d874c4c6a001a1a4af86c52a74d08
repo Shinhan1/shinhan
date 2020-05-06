@@ -1,0 +1,31 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>fileDownload1.jsp</title>
+</head>
+<body>
+	<!-- 파일 다운로드 -->
+	<%
+		// 파일이 저장된 경로
+		String uploadPath = request.getRealPath("upload");
+		out.println("uploadPath : " + uploadPath + "</br>");
+		
+		// 다운로드할 파일 이름
+		String fileName = request.getParameter("fileName");
+		out.println("fileName : " + fileName);
+		
+		// 파일서버에서 파일을 찾기 위한 주소와 그 주소에 있는 파일
+		String requestFileAndPath = uploadPath + fileName;
+		out.println("requestFileAndPath : " + requestFileAndPath);
+		
+		
+	
+	%>
+
+
+
+</body>
+</html>

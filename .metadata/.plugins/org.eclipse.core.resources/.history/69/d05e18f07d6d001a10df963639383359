@@ -1,0 +1,18 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>jQueryEx12.jsp</title>
+</head>
+<body>
+	<input type="button" value="숨기기" />
+	<input type="button" value="보이기" />
+	<input type="button" value="번갈아 수행" />
+	<input type="button" value="점점 사라지기" />
+	<input type="button" value="점점 보이기" />
+	<input type="button" value="효과 주기" />
+
+</body>
+</html>

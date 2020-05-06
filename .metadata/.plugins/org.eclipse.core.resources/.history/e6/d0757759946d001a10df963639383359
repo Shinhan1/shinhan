@@ -1,0 +1,40 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>jQueryEx14.jsp</title>
+</head>
+<body>
+	<!-- 드롭다운 메뉴 만들기 -->
+	<!-- ul#dropDownMenu>(li.mainmenu>a+ul(li>a)*3)*2 -->
+	<ul id="dropDownMenu">
+		<li class="mainmenu">
+			<a href=""></a>
+			<ul>
+				<li><a href=""></a></li>
+			</ul>
+			<ul>
+				<li><a href=""></a></li>
+			</ul>
+			<ul>
+				<li><a href=""></a></li>
+			</ul>
+		</li>
+		<li class="mainmenu">
+			<a href=""></a>
+			<ul>
+				<li><a href=""></a></li>
+			</ul>
+			<ul>
+				<li><a href=""></a></li>
+			</ul>
+			<ul>
+				<li><a href=""></a></li>
+			</ul>
+		</li>
+	</ul>
+
+</body>
+</html>

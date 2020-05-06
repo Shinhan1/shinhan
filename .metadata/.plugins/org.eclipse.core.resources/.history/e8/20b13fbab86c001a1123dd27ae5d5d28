@@ -1,0 +1,23 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>jQueryEx01.jsp</title>
+</head>
+<body>
+	
+	jQuery : javascript library
+	
+	DOM 탐색은 CSS 선택자를 사용함.
+	그러므로 CSS 표현식을 알고 있다면 보다 쉽게 이해할 수 있다. 
+	
+	
+	<h1>HELLO</h1>
+	<h1>jQuery</h1>
+	<h1>World</h1>
+
+
+</body>
+</html>

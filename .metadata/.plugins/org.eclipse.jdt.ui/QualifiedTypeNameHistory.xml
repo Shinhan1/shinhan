@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+<fullyQualifiedTypeName name="com.sun.corba.se.pept.transport.Connection"/>
+<fullyQualifiedTypeName name="com.sun.corba.se.spi.ior.MakeImmutable"/>
+<fullyQualifiedTypeName name="java.awt.image.RescaleOp"/>
+<fullyQualifiedTypeName name="vo.DeptVO"/>
+<fullyQualifiedTypeName name="vo.DeptDAO"/>
+<fullyQualifiedTypeName name="java.sql.Date"/>
+<fullyQualifiedTypeName name="java.util.Date"/>
+<fullyQualifiedTypeName name="vo.EmpDAO"/>
+<fullyQualifiedTypeName name="vo.EmpVO"/>
+<fullyQualifiedTypeName name="java.sql.SQLException"/>
+<fullyQualifiedTypeName name="dao.DeptDAO"/>
+<fullyQualifiedTypeName name="com.sun.xml.internal.bind.v2.runtime.unmarshaller.XsiNilLoader.Array"/>
+<fullyQualifiedTypeName name="dao.JSP_MemberDAO"/>
+<fullyQualifiedTypeName name="com.sun.org.apache.xpath.internal.operations.Or"/>
+<fullyQualifiedTypeName name="java.sql.DriverManager"/>
+<fullyQualifiedTypeName name="dao.ProductDAO"/>
+<fullyQualifiedTypeName name="d20200312.BoardMain"/>
+<fullyQualifiedTypeName name="dao.BoardDAO"/>
+<fullyQualifiedTypeName name="vo.ProductVO"/>
+<fullyQualifiedTypeName name="vo.BoardVO"/>
+<fullyQualifiedTypeName name="connection.GOOT7XEConnection"/>
+<fullyQualifiedTypeName name="dao.ReBoardDAO"/>
+<fullyQualifiedTypeName name="java.util.ArrayList"/>
+<fullyQualifiedTypeName name="vo.ReBoardVO"/>
+<fullyQualifiedTypeName name="java.lang.StringBuffer"/>
+<fullyQualifiedTypeName name="java.sql.PreparedStatement"/>
+<fullyQualifiedTypeName name="java.sql.Connection"/>
+<fullyQualifiedTypeName name="java.sql.ResultSet"/>
+<fullyQualifiedTypeName name="dao.FileUploadTestDAO"/>
+<fullyQualifiedTypeName name="connection.OracleXEConnection"/>
+<fullyQualifiedTypeName name="vo.FileUploadTestVO"/>
+</qualifiedTypeNameHistroy>

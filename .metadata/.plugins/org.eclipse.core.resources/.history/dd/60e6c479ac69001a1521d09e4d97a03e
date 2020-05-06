@@ -1,0 +1,55 @@
+package dao;
+
+import java.sql.Connection;
+import java.sql.PreparedStatement;
+import java.sql.ResultSet;
+import java.sql.SQLException;
+
+import connection.OracleXEConnection;
+import vo.FileUploadTestVO;
+
+public class FileUploadTestDAO {
+	StringBuffer sb = new StringBuffer();
+	ResultSet rs = null;
+	PreparedStatement ps = null;
+	Connection conn = null;
+	
+	public FileUploadTestDAO() {
+		conn = OracleXEConnection.getInstance().getConnection();
+	}
+	
+	// DBMS에 저장 - insertData()
+	public void insertData(FileUploadTestVO vo) {
+		sb.setLength(0);
+		sb.append("insert into fileuploadtest ");
+		sb.append("values (fileuploadtest_fno_seq.nextval, ?, ?, ?, ? ) ");
+		
+		try {
+			ps = conn.prepareStatement(sb.toString());
+			ps.setString(1, vo.getTitle());
+			ps.setString(2, vo.getWriter());
+			ps.setString(3, vo.getContents());
+			ps.setString(4, vo.getFilePath());
+			
+			ps.executeUpdate();
+			
+			
+		} catch (SQLException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+		
+		
+	}	// insertData() end
+	
+	
+	public FileUploadTestVO getData(String writer) {
+		sb.setLength(0);
+		sb.append("select * from fileuploadtest ");
+		sb.append("where wrtier = ? ");
+	}
+	
+	
+	
+
+}

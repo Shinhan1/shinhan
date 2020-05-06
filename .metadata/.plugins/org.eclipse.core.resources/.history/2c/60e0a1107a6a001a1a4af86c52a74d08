@@ -1,0 +1,16 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>ajaxEx04.jsp</title>
+</head>
+<body>
+	Ajax(Asynchronous JavaScript and XML)
+	
+	: 자바스크립트를 이용해서 서버와 XML(데이터)로 부터
+
+
+</body>
+</html>

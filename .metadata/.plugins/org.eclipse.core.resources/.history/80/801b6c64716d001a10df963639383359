@@ -1,0 +1,17 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>jQueryEx08.jsp</title>
+</head>
+<body>
+	<div>
+		<p>한 마디 작성하세요</p>
+		<h2>/60자 제한</h2>
+		<textarea name="" id="" cols="30" rows="10"></textarea>
+	</div>
+
+</body>
+</html>

@@ -1,0 +1,28 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>ajaxEx02.jsp</title>
+</head>
+<body>
+<script type="text/javascript">
+	var request = new XMLHttpRequest();
+	
+	request.open("GET", "data.html", true);
+	request.send();
+	
+	var txt = request.responseText;
+	alert(txt);
+	
+	
+	
+
+
+</script>
+
+
+
+</body>
+</html>

@@ -1,0 +1,12 @@
+package d20200318;
+
+import javax.servlet.http.HttpServlet;
+
+// Servlet : 웹에서 동작하는 작은 자바프로그램
+// Servlet이 되려면 상속이 필요 : HttpServlet
+
+public class HelloServlet extends HttpServlet {
+	
+	
+
+}

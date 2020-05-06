@@ -1,0 +1,13 @@
+@charset "UTF-8";
+
+#donaBtn {
+      position: fixed;
+      bottom: 100px;
+      right: 70px;
+      opacity: 0.7;
+      width: 170px;
+      height: 170px;
+      z-index: 1000;
+   }
+    
+  

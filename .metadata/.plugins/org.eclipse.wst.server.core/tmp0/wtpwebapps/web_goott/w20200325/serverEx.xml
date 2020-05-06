@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--  xml : 간단히 말하자면 tag를 customizing 할수 있음 -->
+
+<booklist>
+	<book>
+		<title>JAVA</title>
+		<price>3000</price>
+	</book>
+	<book>
+		<title>JSP</title>
+		<price>30000</price>	
+	</book>
+	<book>
+		<title>jQuery</title>
+		<price>25000</price>
+	</book>
+
+
+
+</booklist>

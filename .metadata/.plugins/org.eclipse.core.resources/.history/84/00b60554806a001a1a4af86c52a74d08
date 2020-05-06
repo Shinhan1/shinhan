@@ -1,0 +1,88 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>ajaxEx04.jsp</title>
+<script type="text/javascript">
+	// 비동기 통신 객체 : XMLHttpRequest 객체
+	// (참고) 이 비동기 통신 객체가 웹 브라우저에 따라서 이름이 다름. 특히 MS
+	var xhr = null;
+	function XMLHttpRequest() {
+		// MS 브라우저라면..
+		if(window.ActiveObject){
+			try {
+				return new ActiveObject("MsXML2.XMLHttp");
+			}catch(e){
+				try{
+					return new ActiveObject("Microsoft.XMLHTTP");
+					
+				}catch(e){
+					null;
+				}
+			}// outer try~catch end
+		}else if(window.XMLHttpRequest) {
+			// 그 외 브라우저라면
+			return new XMLHttpRequest();
+		}else {
+			return null;
+		}
+		
+	}// XMLHttpRequest() end
+	
+	function loac(url) {
+		//console.log(url);
+		
+		// 1. XMLHttpRequest 객체 얻어오기
+		xhr = new XMLHttpRequest();
+		
+		console.dir(xhr);
+		
+		// 2. 화면에 출력할 부분
+		xhr.onreadystatuschange = viewMessge;
+		
+		// 3. open(method 결정, 주소, 비동기 통신 여부)
+		xhr.open('GET', url, true);
+		
+		// 4. send() : 실행
+		xhr.send();
+		
+	}	// load() end
+	
+	function viewMessage() {
+		// readyState : 0 ~ 4 단계 (4이면 완료)
+		if(xhr.readyState==4) {
+			// 그리고 정상페이지이면
+			if(xhr.status==200){
+				alert(xhr.responseText);
+			}
+		}
+		
+	}	// viewMessage() end
+	
+	
+	
+	
+
+</script>
+</head>
+<body>
+	<!-- Ajax(Asynchronous JavaScript and XML)
+	
+	: 자바스크립트를 이용해서 서버와 XML(데이터)로 부터 데이터를 추출하여
+	    웹페이지 전체 갱신없이 부분적으로 갱신하여 출력할 수 있도록 하는 기술 -->
+
+	<input type="button" value="simple1.txt" onclick="load('simple1.txt')" />
+	<input type="button" value="simple1.jsp" onclick="load('simple1.jsp')" />
+	<input type="button" value="simple2.txt" onclick="load('simple2.txt')" />
+	<input type="button" value="simple2.jsp" onclick="load('simple2.jsp')" />
+	
+	<div id="div1">
+		<!-- 서버 혹은 데이터파일에서 가져온 내용을 웹페이지 갱신없이 출력 -->
+	
+	</div>
+	
+	
+</body>
+</html>

@@ -1,0 +1,47 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>jQueryEx11.jsp</title>
+</head>
+<body>
+	<!-- jQuery + css + img -->
+	<h1>영화 소개</h1>
+	<!-- ul>(li>div>img[src="../images/movie_image$.jpg"]+p)*5 -->
+	<ul>
+		<li>
+			<div>
+				<img src="../images/movie_img1.jpg" alt="" />
+				<p>클로젯</p>
+			</div>
+		</li>
+		<li>
+			<div>
+				<img src="../images/movie_img2.jpg" alt="" />
+				<p>버즈 오브 프레이</p>
+			</div>
+		</li>
+		<li>
+			<div>
+				<img src="../images/movie_img3.jpg" alt="" />
+				<p>공룡왕 디노</p>
+			</div>
+		</li>
+		<li>
+			<div>
+				<img src="../images/movie_img4.jpg" alt="" />
+				<p></p>
+			</div>
+		</li>
+		<li>
+			<div>
+				<img src="../images/movie_img5.jpg" alt="" />
+				<p></p>
+			</div>
+		</li>
+	</ul>
+
+</body>
+</html>

@@ -1,0 +1,25 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>ajaxEx06.jsp</title>
+<script type="text/javascript">
+	function prtImg() {
+		var txt = document.getElementById("txt").value;
+	}
+
+</script>
+</head>
+<body>
+	<!-- 현재 페이지에서 상품검색을 수행 후 그 상품이 있으면 이미지로 출력 -->
+	<input type="text" name="" id="txt" />
+	<input type="button" value="검색" onclick="prtImg()" />
+	
+	<div id="div1">
+		<img src="../images/stone.jpg" alt="" />
+	</div>
+
+</body>
+</html>

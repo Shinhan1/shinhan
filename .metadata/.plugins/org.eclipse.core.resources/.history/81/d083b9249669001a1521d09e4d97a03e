@@ -1,0 +1,24 @@
+package dao;
+
+import java.sql.Connection;
+import java.sql.PreparedStatement;
+import java.sql.ResultSet;
+
+import connection.OracleXEConnection;
+
+public class FileUploadTestDAO {
+	StringBuffer sb = new StringBuffer();
+	ResultSet rs = null;
+	PreparedStatement ps = null;
+	Connection conn = null;
+	
+	public FileUploadTestDAO() {
+		conn = OracleXEConnection.getInstance().getConnection();
+	}
+	
+	// DBMS에 저장
+	
+	
+	
+
+}

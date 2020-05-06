@@ -1,0 +1,31 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>jQueryEx09.jsp</title>
+</head>
+<body>
+	<form action="#" id="frm" name="frm" >
+		<table>
+			<tr>
+				<th>ID : </th>
+				<td><input type="text" name="id" id="id" /></td>
+			</tr>
+			<tr>
+				<th>PW : </th>
+				<td><input type="text" name="pw" id="pw" /></td>
+			</tr>
+			<tr>
+				<td colspan="2"><input type="button" value="전송" /></td>
+			</tr>
+			
+			
+		</table>
+	
+	
+	</form>
+
+</body>
+</html>

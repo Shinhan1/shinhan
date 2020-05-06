@@ -1,0 +1,27 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>jQueryEx23</title>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script type="text/javascript">
+	$(function(){
+		
+		
+	});
+	
+</script>
+</head>
+<body>
+	<h2>부서목록</h2>
+	<input type="button" value="출력" />
+	<div>
+		<ul>
+			<li>부서정보</li>
+		</ul>
+	</div>
+
+</body>
+</html>

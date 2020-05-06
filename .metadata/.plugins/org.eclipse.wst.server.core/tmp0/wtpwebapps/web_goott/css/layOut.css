@@ -1,0 +1,49 @@
+@charset "UTF-8";
+* {
+	margin : 0;
+	padding : 0;
+	
+}
+
+#container {
+	width : 1000px;
+	margin : auto;
+}
+
+#nav {
+	padding-left : 100px;
+	margin : 0 30px;
+}
+
+a {
+	margin : 30px;
+	text-decoration : none;
+}
+
+#leftContents {
+	width : 70%;
+	float : left;
+	background-color: yellow;
+}
+
+#sidebar {
+	width : 30%;
+	float : left;
+	background-color: skyblue;
+}
+
+#login {
+	padding:10px;
+	width:150px;
+	text-align:center;
+}
+
+ol {list-style-type: none;}
+
+#footer {
+	clear : both;
+	background-color : darkgray;
+}
+
+
+

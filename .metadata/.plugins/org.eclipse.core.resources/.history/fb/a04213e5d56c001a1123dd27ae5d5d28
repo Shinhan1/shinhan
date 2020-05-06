@@ -1,0 +1,41 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>jQueryEx06.jsp</title>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script type="text/javascript">
+	$(document).ready(function(){
+		// 1번 버튼을 누르면 CSS 효과를 적용하기
+		$("#btn1").click(function(){
+			/* $("#box1").css("background-color", "green");
+			$("#box1").css("color", "red");
+			$("#box1").css("color", "yellow"); */
+			
+			// 1. 맵 방식
+			
+			
+			// 2. 메소드 체이닝 방식
+			$("#box1").css("background-color", "green").css("color", "red");
+			
+		});
+		
+		
+	});
+</script>
+</head>
+<body>
+	<!-- CSS 처리를 위한 버튼 -->
+	<!-- input:button[value="btn$"][id="btn$"]*5 -->
+	<input type="button" value="btn1" id="btn1" />
+	<input type="button" value="btn2" id="btn2" />
+	<input type="button" value="btn3" id="btn3" />
+	<input type="button" value="btn4" id="btn4" />
+	<input type="button" value="btn5" id="btn5" />
+	
+	<div id="box1">box1</div>
+
+</body>
+</html>
